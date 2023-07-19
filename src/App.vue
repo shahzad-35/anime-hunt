@@ -37,7 +37,7 @@ export default {
     const animeList = ref([]);
 
     const HandleSearch = async() => {
-      animeList.value = await fetch(`https://api.jikan.moe/v4/anime?q=${searchQuery.value}&rating=pg13&rating=pg`)
+      animeList.value = await fetch(`https://api.jikan.moe/v4/anime?q=${searchQuery.value}&limit=10&rating=pg13`)
                         .then(res => res.json())
                         .then(data => data.data);
       searchQuery.value = "";
