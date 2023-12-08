@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Visit this link for Demo:
+https://shahzad-35.github.io/anime-hunt/
